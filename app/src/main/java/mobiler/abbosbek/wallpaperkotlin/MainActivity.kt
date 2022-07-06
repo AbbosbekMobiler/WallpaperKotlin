@@ -2,6 +2,7 @@ package mobiler.abbosbek.wallpaperkotlin
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.view.Menu
 import android.widget.Toast
 import androidx.lifecycle.Observer
 import androidx.lifecycle.ViewModelProvider
@@ -48,4 +49,5 @@ class MainActivity : AppCompatActivity() {
     fun loadData(count : Int){
         viewModel.getWallpaper("$count","20")
     }
+
 }
